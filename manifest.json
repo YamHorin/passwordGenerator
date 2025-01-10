@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "password Generator",
+  "version": "1.0",
+  "description": "A Firefox extension that serves an embedded HTML file.",
+  "icons": {
+    "48": "border-48.png"  
+  },
+  "browser_action": {
+    "default_icon": "border-48.png",
+    "default_title": "password Generator",
+    "default_popup": "index.html"
+  },
+  "permissions": [
+    "notifications"
+  ]
+}
